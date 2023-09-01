@@ -1,0 +1,113 @@
+<html>
+	<head>
+ 		<title>He</title>
+	</head>
+	<body>
+			<!--<p></p>段落标签，自动空行-->
+			
+			<!--<font color = " "></font>颜色控件-->
+
+			<!--<font size = " "></font>字号大小控件-->
+
+			<!--<strong></strong>字体加粗  <em></em>斜体  <ins></ins>下划线  <del></del>删除线-->
+			
+			<!--<br>换行-->
+
+			<!--<hr>水平分割线-->
+
+			<!--<a href = "#">跳转空链接-->
+
+			<!--target ="_self"覆盖当前页面跳转到新页面  taregt = "_blank"不覆盖当前页面，重新打开一个新页面-->
+
+			<a href="https://timelineofearth.com/" target="_blank"><font size = '8'><em>Hello world</em></font></a>
+
+			<audio src="music/銀の龍の背に乗って.mp3" controls autoplay loop></audio>
+
+			<hr>
+
+			<img src="https://w.wallhaven.cc/full/qz/wallhaven-qzo2od.jpg" alt="你网不好才会看到这句话" title="回忆少年时，最喜烟花放" width="1666">
+			
+			<!--<img src="image/2.png" alt="你网不好才会看到这句话" title="万水千山路，孤舟几月程" width="1666">-->
+			
+			<!--muted静音控件-->
+
+			<video src="3.mp4" controls loop muted width="1666"></video>
+
+			<hr>
+
+			<!--列表标签<ul></ul>和<ol></ol>里面只能包含<li></li>标签,<li></li>标签里能包含任意内容-->
+
+			<ul>
+				<li><font color="＃F4A460">html</font></li>
+				<br>
+				<li><font color="＃F4A460">css</font></li>
+				<br>
+				<li><font color="＃F4A460">javascript</font></li>
+			</ul>
+
+			<ol>
+				<li>one</li>
+				<br>
+				<li>two</li>
+				<br>
+				<li>three</li>
+			</ol>
+
+			<!--<dl></dl>自定义列表,<dt></dt>自定义列表主题,<dd></dd>自定义列表内容，默认显示缩进效果-->
+
+			<dl>
+				<dt><em>blue archive</em></dt>
+				<br>
+				<dd><em>圣三一</em></dd>
+				<br>
+				<dd><em>格黑娜</em></dd>
+				<br>
+				<dd><em>千年</em></dd>
+
+			<!--表格标签table包含tr,tr包含td-->
+
+			<!--属性:border:边框宽度，width:表格宽度,height:表格高度-->
+
+			<!--表格标签:caption:表示表格整体大标题，默认在表格顶部居中，caption书写在在table标签内部
+			            th:表示一列小标题，通常用于表格第一行，默认内部文字加粗并居中显示，书写在tr内部，替换td-->
+
+			<!--表格的结构标签:thead:表格头部；tbody:表格主体；tfoot:表格底部，表格结构标签内部用于包裹tr标签-->
+
+			<!--属性：合并单元格:rowspan：上下合并，保留最上，删除其他。colspan:左右合并，保留最左，删除其他。合并几个单元格数字就写几。不能跨结构标签合并(thead,tbody,tfoot)-->
+
+			<table border="1" width="400" height="200"> 
+				<caption><strong>三阶幻方</strong></caption>
+				<thead>
+					<tr>
+						<td>one</td>
+						<td>two</td>
+						<td>three</td>
+						<td>和</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>8</td>
+						<td>1</td>
+						<td>6</td>
+						<td rowspan="3">15</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<th>5</th>
+						<td>7</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>9</td>
+						<td>2</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="3">15</td>
+					</tr>
+				</tfoot>
+			</table>
+	</body>
+</html>
